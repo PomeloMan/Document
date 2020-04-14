@@ -2,7 +2,7 @@
 Docker 安装，打包，部署学习
 
 #### 目录
-* [Portainer](https://github.com/PomeloMan/Document/tree/master/Linux/Docker/Portainer) (<https://www.portainer.io/>)
+* [Portainer](./Portainer) (<https://www.portainer.io/>)
 
 #### 安装（旧版）
 ```
