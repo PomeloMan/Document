@@ -1,9 +1,6 @@
 ## Docker
 Docker 安装，打包，部署学习
 
-#### 目录
-* [Portainer](./Portainer) (<https://www.portainer.io/>)
-
 #### 安装（旧版）
 ```
 yum -y update #升级所有包，改变软件设置和系统设置,系统版本内核都升级
