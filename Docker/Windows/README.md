@@ -148,6 +148,9 @@ Successfully removed my-docker-machine
 
 > 注意：boot2docker默认给docker-machine分配1个cpu和1G内存。
 ```
+# default虚拟机的默认用户名和密码 docker/tcuser
+# 存储目录 C:\Users\Administrator\.docker\machine
+# /var/lib/boot2docker/profile 相当于 docker.service
 $ docker-machine ls
 NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER     ERRORS
 default   *        virtualbox   Running   tcp://192.168.99.100:2376           v18.09.9
