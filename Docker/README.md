@@ -5,5 +5,6 @@
 * [Windows](./Windows)
 * [Docker 指令](./Command)
 
-#### 镜像模板
+#### 镜像
 * [Portainer](./Resources/Portainer) (<https://www.portainer.io/>)
+* [Jenkins](./Resources/Jenkins) (<https://jenkins.io/zh/>)
