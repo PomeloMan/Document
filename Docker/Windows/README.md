@@ -142,6 +142,22 @@ Successfully removed my-docker-machine
 
 </font>
 
+#### 镜像加速
+<font size="2">
+
+```
+$ docker-machine ssh default
+$ sudo -i #使用root权限
+$ vi /var/lib/boot2docker/profile
+#在 –label provider=virtualbox 下添加
+--registry-mirror https://registry.docker-cn.com
+--registry-mirror https://docker.mirrors.ustc.edu.cn
+--registry-mirror http://hub-mirror.c.163.com
+$ docker-machine restart default
+$ docker info
+```
+
+</font>
 
 #### 其他
 <font size="2">
