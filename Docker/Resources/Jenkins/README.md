@@ -8,7 +8,7 @@ $ docker pull jenkins/jenkins:lts
 
 #### 运行
 ```
-$ docker run -d --name jenkins -p 9000:9000 -v /home/jenkins:/home/jenkins jenkins/jenkins:lts;
+$ docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v /home/jenkins:/home/jenkins jenkins/jenkins:lts;
 ```
 
 #### 查看Jenkins administrator初始密码
