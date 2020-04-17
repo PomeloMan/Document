@@ -30,14 +30,6 @@ Android Studio > File > Settings... > Build, Execution, Deployment > Gradle > Ge
 
 <font size="2">
 
-添加环境变量 ANDROID_SDK_HOME = `D:\Program Files\Android`
-修改 ANDROID_SDK_HOME 下 .android/avd/模拟器型号.ini
-
-```
-avd.ini.encoding=UTF-8
-path=D:\Program Files\Android\.android\avd\Pixel_2_API_29.avd
-path.rel=avd\Pixel_2_API_29.avd
-target=android-29
-```
+添加环境变量 ANDROID_AVD_HOME 或 ANDROID_SDK_HOME = `D:\Program Files\Android`, 这样以后下载的模拟器都下到这个目录下了
 
 </font>
