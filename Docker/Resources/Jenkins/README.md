@@ -17,3 +17,6 @@ $ docker ps -a #找到jenkins容器ID
 $ docker exec -u 0 -it a0be9d163c23 /bin/bash
 $ cat /var/jenkins_home/secrets/initialAdminPassword
 ```
+
+#### 插件
+* [Publish Over SSH](./Plugins/PublishOverSSH.md)
