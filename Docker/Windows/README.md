@@ -159,6 +159,16 @@ $ docker info
 
 </font>
 
+#### 更改默认存储地址
+
+<font size="2">
+
+1. 默认目录 C:\Users\FengChao\\.docker\machine
+2. 将 machines 文件夹整个移至 D:\\.docker\machine 下，确保 C:\Users\FengChao\\.docker\machine 下没有 machines 目录
+3. cmd > mklink /J "C:\Users\FengChao\\.docker\machine\machines" "D:\\.docker\machine\machines"
+
+</font>
+
 #### 其他
 <font size="2">
 
