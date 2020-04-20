@@ -159,6 +159,17 @@ $ docker info
 
 </font>
 
+#### TLS证书目录
+
+<font size="2">
+
+> C:\Users\<your-user>\.docker\machine\certs
+TLS CA certificate - ca.pem
+TLS certificate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - cert.pem
+TLS key&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - key.pem
+
+</font>
+
 #### 更改默认存储地址
 
 <font size="2">
@@ -172,7 +183,8 @@ $ docker info
 #### 其他
 <font size="2">
 
-> 注意：boot2docker默认给docker-machine分配1个cpu和1G内存。
+> 注意：boot2docker 默认给 docker-machine 分配1个cpu和1G内存。
+
 ```
 # default虚拟机的默认用户名和密码 docker/tcuser
 # 存储目录 C:\Users\Administrator\.docker\machine
